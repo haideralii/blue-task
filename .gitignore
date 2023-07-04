@@ -1,0 +1,23 @@
+# Compiled class files
+target/
+
+# Maven build directory
+/.mvn/
+
+# Maven Wrapper
+/.mvnw/
+/.mvnw.cmd
+
+# IDE files
+*.iml
+.idea/
+.vscode/
+
+# Eclipse-specific files
+.classpath
+.project
+.settings/
+
+# IntelliJ-specific files
+*.ipr
+*.iws

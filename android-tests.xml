@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Android-testSuite">
+    <test name="Android-Bilue-Login-Test">
+        <parameter name="nameOfApp" value="app-debug.apk" />
+        <parameter name="platformName" value="Android" />
+        <parameter name="deviceName" value="Pixel 6 Pro API 30" />
+        <parameter name="automationName" value="UiAutomator2" />
+        <parameter name="appPath" value="src/test/resources" />
+        <classes>
+            <class name="Tests.BilueLoginTest" />
+        </classes>
+    </test>
+</suite>

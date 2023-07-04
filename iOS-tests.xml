@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="iOS-testSuite">
+    <test name="iOS-Bilue-Login-Test">
+        <parameter name="nameOfApp" value="app-debug.ipa" />
+        <parameter name="platformName" value="iOS" />
+        <parameter name="deviceName" value="iPhone 12" />
+        <parameter name="automationName" value="XCUITest" />
+        <parameter name="appPath" value="src/test/resources" />
+        <classes>
+            <class name="Tests.BilueLoginTest" />
+        </classes>
+    </test>
+</suite>
