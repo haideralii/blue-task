@@ -16,6 +16,6 @@ Make sure you have the above dependencies installed and properly configured befo
 after installing all the required dependencies, you need to have appium server up and running and emulator open then 
 you can use following command, that will execute tests 
       
-      mvn test
+      mvn clean test
 
 This command will execute tests in android as well as iOS. As there is no .ipa application wo iOS tests willl get failed and you can view results in surefire report in target/index.html
